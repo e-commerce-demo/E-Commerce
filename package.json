@@ -2,6 +2,8 @@
   "name": "clothing-commerce",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3069",
+  "main": "server/index.js",
   "dependencies": {
     "axios": "^0.19.0",
     "dotenv": "^8.0.0",
@@ -10,6 +12,7 @@
     "massive": "^5.11.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
